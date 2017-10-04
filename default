@@ -1,0 +1,5 @@
+echo "IATEMPDIR Started"
+export IATEMPDIR=/var/ca/widm-app 
+export LAX_DEBUG=file 
+echo $IATEMPDIR
+echo $LAX_DEBUG
