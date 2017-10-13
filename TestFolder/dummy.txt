@@ -1,0 +1,13 @@
+	
+I had exactly the same problem, which turned out to be caused by a proxy server. The solution to my problem was to configure subversion to work with the proxy server, however it was not obvious how to do this.
+
+You should have a directory similar to : C:\Documents and Settings\UserName\Application Data\Subversion
+
+In that directory there will be a file called servers.
+
+I un-commented and edited the following entries and my subversion is now working fine with Eclipse:
+
+http-proxy-host
+http-proxy-port
+http-proxy-username
+http-proxy-password
